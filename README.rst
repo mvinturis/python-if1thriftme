@@ -8,6 +8,7 @@ extended/customized in order to make them simple to use by dev teams.
 Usage example:
 
 .. code-block:: python
+
     from if1thriftme.VehicleWarningsService import AcousticOutputServiceClient, SoundID, VolumeCtlID, PrioOverrideType, RepetitionMode
 
     acoustic = AcousticOutputServiceClient.createClient("tcp://192.168.0.10:19102/#43")
