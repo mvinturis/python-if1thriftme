@@ -1,0 +1,5 @@
+%ignore GET_SYSTEM_STATE_ID;
+%ignore INSTALLATION_PROGRESS_CHANGED_ID;
+%ignore SYSTEM_STATE_CHANGED_ID;
+%rename (UpdateManagerServiceParameters__getSystemState_result) vehicle::remoteUpdate::UpdateManagerServiceParameters::getSystemState_result;
+%rename (MaintenanceInstallerServiceParameters__getSystemState_result) vehicle::remoteUpdate::MaintenanceInstallerServiceParameters::getSystemState_result;

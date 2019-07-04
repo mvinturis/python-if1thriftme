@@ -1,0 +1,7 @@
+%ignore GET_ACTIVE_USER_SESSION_FOR_CURRENT_SEAT_ID;
+%ignore GET_ACTIVE_USER_SESSIONS_ID;
+%ignore USER_SESSION_CHANGED_ID;
+%rename (GeneralUserDataServiceParameters__getActiveUserSessionForCurrentSeat_result) vehicle::userData::GeneralUserDataServiceParameters::getActiveUserSessionForCurrentSeat_result;
+%rename (UserProfileServiceParameters__getActiveUserSessionForCurrentSeat_result) vehicle::userData::UserProfileServiceParameters::getActiveUserSessionForCurrentSeat_result;
+%rename (GeneralUserDataServiceParameters__getActiveUserSessions_result) vehicle::userData::GeneralUserDataServiceParameters::getActiveUserSessions_result;
+%rename (UserProfileServiceParameters__getActiveUserSessions_result) vehicle::userData::UserProfileServiceParameters::getActiveUserSessions_result;

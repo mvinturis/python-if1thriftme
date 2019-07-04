@@ -1,0 +1,13 @@
+%ignore GET_LIST_ITEM_ID;
+%ignore GET_LIST_ITEMS_ID;
+%ignore GET_LIST_SIZE_ID;
+%ignore LIST_CHANGED_ID;
+%ignore GET_AVAILABLE_CHARACTERS_FOR_SEARCH_ID;
+%rename (SearchListServiceParameters__getListItem_result) communication::addressbook::SearchListServiceParameters::getListItem_result;
+%rename (ContactsListServiceParameters__getListItem_result) communication::addressbook::ContactsListServiceParameters::getListItem_result;
+%rename (ManualFavouritesServiceParameters__getListItem_result) communication::addressbook::ManualFavouritesServiceParameters::getListItem_result;
+%rename (SearchListServiceParameters__getListItems_result) communication::addressbook::SearchListServiceParameters::getListItems_result;
+%rename (ContactsListServiceParameters__getListItems_result) communication::addressbook::ContactsListServiceParameters::getListItems_result;
+%rename (ManualFavouritesServiceParameters__getListItems_result) communication::addressbook::ManualFavouritesServiceParameters::getListItems_result;
+%rename (ContactsSearchServiceParameters__getAvailableCharactersForSearch_result) communication::addressbook::ContactsSearchServiceParameters::getAvailableCharactersForSearch_result;
+%rename (ContactsListServiceParameters__getAvailableCharactersForSearch_result) communication::addressbook::ContactsListServiceParameters::getAvailableCharactersForSearch_result;

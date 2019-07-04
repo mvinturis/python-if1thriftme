@@ -1,0 +1,565 @@
+{
+  "LocationInformationService": {
+    "headers": {
+      "LocationInformation": "../../../SourceSpace/IF1ThriftMeFull/LocationInformationService/inc/LocationInformation.h"
+    }, 
+    "namespace": "navigation::LocationInformation", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/LocationInformationService/private/src"
+  }, 
+  "FavoritesService": {
+    "headers": {
+      "FavoritesControlService": "../../../SourceSpace/IF1ThriftMeFull/FavoritesService/inc/FavoritesControlService.h"
+    }, 
+    "namespace": "driverAssistance::favorites", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/FavoritesService/private/src"
+  }, 
+  "EmergencyAndAssistanceService": {
+    "headers": {
+      "AssistanceServicesService": "../../../SourceSpace/IF1ThriftMeFull/EmergencyAndAssistanceService/inc/AssistanceServicesService.h", 
+      "ServiceCallService": "../../../SourceSpace/IF1ThriftMeFull/EmergencyAndAssistanceService/inc/ServiceCallService.h", 
+      "ECallService": "../../../SourceSpace/IF1ThriftMeFull/EmergencyAndAssistanceService/inc/ECallService.h", 
+      "ABAService": "../../../SourceSpace/IF1ThriftMeFull/EmergencyAndAssistanceService/inc/ABAService.h", 
+      "GeneralEmergencyAndAssistanceService": "../../../SourceSpace/IF1ThriftMeFull/EmergencyAndAssistanceService/inc/GeneralEmergencyAndAssistanceService.h"
+    }, 
+    "namespace": "driverAssistance::emergencyAndAssistance", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/EmergencyAndAssistanceService/private/src"
+  }, 
+  "AddressbookService": {
+    "headers": {
+      "FavouritesService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/FavouritesService.h", 
+      "ContactsListService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/ContactsListService.h", 
+      "SearchListService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/SearchListService.h", 
+      "ContactsManagerService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/ContactsManagerService.h", 
+      "ContactsInformationService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/ContactsInformationService.h", 
+      "ManualFavouritesService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/ManualFavouritesService.h", 
+      "ContactsSearchService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/ContactsSearchService.h", 
+      "GeneralContactsService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/GeneralContactsService.h", 
+      "ImportContactsService": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/inc/ImportContactsService.h"
+    }, 
+    "namespace": "communication::addressbook", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/AddressbookService/private/src"
+  }, 
+  "SnapFileUploadDownloadService": {
+    "headers": {
+      "SNAPFileUploadService": "../../../SourceSpace/IF1ThriftMeFull/SnapFileUploadDownloadService/inc/SNAPFileUploadService.h", 
+      "SNAPFileDownloadService": "../../../SourceSpace/IF1ThriftMeFull/SnapFileUploadDownloadService/inc/SNAPFileDownloadService.h"
+    }, 
+    "namespace": "platform::snapFileUploadDownload", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SnapFileUploadDownloadService/private/src"
+  }, 
+  "AntiTheftService": {
+    "headers": {
+      "GeneralAntiTheftService": "../../../SourceSpace/IF1ThriftMeFull/AntiTheftService/inc/GeneralAntiTheftService.h"
+    }, 
+    "namespace": "platform::antiTheft", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/AntiTheftService/private/src"
+  }, 
+  "RemoteUpdateService": {
+    "headers": {
+      "MaintenanceInstallerService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateService/inc/MaintenanceInstallerService.h", 
+      "UpdateManagerService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateService/inc/UpdateManagerService.h", 
+      "GeneralRTSUService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateService/inc/GeneralRTSUService.h"
+    }, 
+    "namespace": "vehicle::remoteUpdate", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateService/private/src"
+  }, 
+  "VehicleFunctionsService": {
+    "headers": {
+      "ComfortFunctionsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/ComfortFunctionsService.h", 
+      "PHDImageForDigitalHeadlightService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/PHDImageForDigitalHeadlightService.h", 
+      "ZEVFunctionsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/ZEVFunctionsService.h", 
+      "InstrumentClusterSettingsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/InstrumentClusterSettingsService.h", 
+      "CarSettingsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/CarSettingsService.h", 
+      "GeneralVehicleFunctionsSettingsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/GeneralVehicleFunctionsSettingsService.h", 
+      "EVSettingsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/EVSettingsService.h", 
+      "WirelessPowerTransferService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/WirelessPowerTransferService.h", 
+      "PanelHeatingService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/PanelHeatingService.h", 
+      "OpeningAndLockingService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/OpeningAndLockingService.h", 
+      "CarWashModeService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/CarWashModeService.h", 
+      "AssistantSettingsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/AssistantSettingsService.h", 
+      "IlluminationService": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/inc/IlluminationService.h"
+    }, 
+    "namespace": "vehicle::vehicleFunctions", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/VehicleFunctionsService/private/src"
+  }, 
+  "ParkManService": {
+    "headers": {
+      "SurroundViewSystemService_v2": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/SurroundViewSystemService_v2.h", 
+      "RearViewCameraService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/RearViewCameraService.h", 
+      "RemoteParkingAssistantService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/RemoteParkingAssistantService.h", 
+      "ParkingNotificationService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/ParkingNotificationService.h", 
+      "APCService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/APCService.h", 
+      "ParkingAssistanceSettingsService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/ParkingAssistanceSettingsService.h", 
+      "GeneralCameraService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/GeneralCameraService.h", 
+      "AutomatedValetParkingService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/AutomatedValetParkingService.h", 
+      "HomeParkingService": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/inc/HomeParkingService.h"
+    }, 
+    "namespace": "driverAssistance::parkMan", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/ParkManService/private/src"
+  }, 
+  "UiRvcService": {
+    "headers": {
+      "UIRearViewCameraService": "../../../SourceSpace/IF1ThriftMeFull/UiRvcService/inc/UIRearViewCameraService.h"
+    }, 
+    "namespace": "driverAssistance::uiRvc", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/UiRvcService/private/src"
+  }, 
+  "VehicleWarningsService": {
+    "headers": {
+      "AcousticOutputService": "../../../SourceSpace/IF1ThriftMeFull/VehicleWarningsService/inc/AcousticOutputService.h", 
+      "WarningsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleWarningsService/inc/WarningsService.h", 
+      "MultipleSystemsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleWarningsService/inc/MultipleSystemsService.h"
+    }, 
+    "namespace": "cluster::vehicleWarnings", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/VehicleWarningsService/private/src"
+  }, 
+  "UiPersistenceService": {
+    "headers": {
+      "HMIPersistenceService": "../../../SourceSpace/IF1ThriftMeFull/UiPersistenceService/inc/HMIPersistenceService.h"
+    }, 
+    "namespace": "vehicle::uiPersistence", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/UiPersistenceService/private/src"
+  }, 
+  "HmiStatusService": {
+    "headers": {
+      "HMIStatusService": "../../../SourceSpace/IF1ThriftMeFull/HmiStatusService/inc/HMIStatusService.h", 
+      "DigitalLightService": "../../../SourceSpace/IF1ThriftMeFull/HmiStatusService/inc/DigitalLightService.h"
+    }, 
+    "namespace": "cluster::hmiStatus", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/HmiStatusService/private/src"
+  }, 
+  "UiManagerService": {
+    "headers": {
+      "UIStateService": "../../../SourceSpace/IF1ThriftMeFull/UiManagerService/inc/UIStateService.h", 
+      "UIStreamingService": "../../../SourceSpace/IF1ThriftMeFull/UiManagerService/inc/UIStreamingService.h"
+    }, 
+    "namespace": "platform::uiManager", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/UiManagerService/private/src"
+  }, 
+  "EngineeringModeService": {
+    "headers": {
+      "HardwareInformationService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/HardwareInformationService.h", 
+      "TraceService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/TraceService.h", 
+      "PerformanceMeasurementService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/PerformanceMeasurementService.h", 
+      "engineeringInformationExchange": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/engineeringInformationExchange.h", 
+      "DynamicEngineeringModeService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/DynamicEngineeringModeService.h", 
+      "SNAPInformationService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/SNAPInformationService.h", 
+      "DealerModeService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/DealerModeService.h", 
+      "EMCModeService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/EMCModeService.h", 
+      "GeneralEngineeringModeService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/GeneralEngineeringModeService.h", 
+      "MiscEngineeringModeService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/inc/MiscEngineeringModeService.h"
+    }, 
+    "namespace": "platform::engineeringMode", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/EngineeringModeService/private/src"
+  }, 
+  "EventlogICCService": {
+    "headers": {
+      "EventLogger": "../../../SourceSpace/IF1ThriftMeFull/EventlogICCService/inc/EventLogger.h"
+    }, 
+    "namespace": "vcpu::eventlogICC", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/EventlogICCService/private/src"
+  }, 
+  "SystemService": {
+    "headers": {
+      "OnOffService": "../../../SourceSpace/IF1ThriftMeFull/SystemService/inc/OnOffService.h", 
+      "WatchdogService": "../../../SourceSpace/IF1ThriftMeFull/SystemService/inc/WatchdogService.h"
+    }, 
+    "namespace": "cluster::system", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SystemService/private/src"
+  }, 
+  "DiagnosticsDIService": {
+    "headers": {
+      "GeneralDiagnosticsDIService": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsDIService/inc/GeneralDiagnosticsDIService.h", 
+      "MeasurementPointService": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsDIService/inc/MeasurementPointService.h", 
+      "FeatureConfigurationService": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsDIService/inc/FeatureConfigurationService.h", 
+      "FunctionTestService": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsDIService/inc/FunctionTestService.h", 
+      "HMIControlService": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsDIService/inc/HMIControlService.h"
+    }, 
+    "namespace": "cluster::diagnosticsDI", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsDIService/private/src"
+  }, 
+  "VariantCodingICCService": {
+    "headers": {
+      "VariantCoding": "../../../SourceSpace/IF1ThriftMeFull/VariantCodingICCService/inc/VariantCoding.h"
+    }, 
+    "namespace": "vcpu::variantCodingICC", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/VariantCodingICCService/private/src"
+  }, 
+  "SnapSubscriptionService": {
+    "headers": {
+      "SNAPSubscriptionService": "../../../SourceSpace/IF1ThriftMeFull/SnapSubscriptionService/inc/SNAPSubscriptionService.h"
+    }, 
+    "namespace": "platform::snapSubscription", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SnapSubscriptionService/private/src"
+  }, 
+  "DriveAssistService": {
+    "headers": {
+      "ParkmanService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/ParkmanService.h", 
+      "SpeedControlService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/SpeedControlService.h", 
+      "SRAService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/SRAService.h", 
+      "AttentionAssistService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/AttentionAssistService.h", 
+      "TrafficLightAssistService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/TrafficLightAssistService.h", 
+      "AssistanceVisualizationService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/AssistanceVisualizationService.h", 
+      "BSMService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/BSMService.h", 
+      "DSRService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/DSRService.h", 
+      "EcoService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/EcoService.h", 
+      "LDPService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/LDPService.h", 
+      "TrafficSignAssistService": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/inc/TrafficSignAssistService.h"
+    }, 
+    "namespace": "cluster::driveAssist", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/DriveAssistService/private/src"
+  }, 
+  "MobileDeviceService": {
+    "headers": {
+      "MobileDeviceListService": "../../../SourceSpace/IF1ThriftMeFull/MobileDeviceService/inc/MobileDeviceListService.h", 
+      "MobileDevicePresenceService": "../../../SourceSpace/IF1ThriftMeFull/MobileDeviceService/inc/MobileDevicePresenceService.h"
+    }, 
+    "namespace": "communication::mobileDevice", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/MobileDeviceService/private/src"
+  }, 
+  "SystemActivationService": {
+    "headers": {
+      "SystemActivationInformationService": "../../../SourceSpace/IF1ThriftMeFull/SystemActivationService/inc/SystemActivationInformationService.h", 
+      "SystemActivationService": "../../../SourceSpace/IF1ThriftMeFull/SystemActivationService/inc/SystemActivationService.h"
+    }, 
+    "namespace": "platform::systemActivation", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SystemActivationService/private/src"
+  }, 
+  "PhoneService": {
+    "headers": {
+      "NetworkService": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/inc/NetworkService.h", 
+      "MultiseatTelephonyService": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/inc/MultiseatTelephonyService.h", 
+      "BatteryService": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/inc/BatteryService.h", 
+      "GeneralPhoneService": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/inc/GeneralPhoneService.h", 
+      "CallManagerService": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/inc/CallManagerService.h", 
+      "CallListService": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/inc/CallListService.h"
+    }, 
+    "namespace": "communication::phone", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/PhoneService/private/src"
+  }, 
+  "VariantCodingApplicationService": {
+    "headers": {
+      "VariantCodingApplicationService": "../../../SourceSpace/IF1ThriftMeFull/VariantCodingApplicationService/inc/VariantCodingApplicationService.h"
+    }, 
+    "namespace": "platform::variantCodingApplication", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/VariantCodingApplicationService/private/src"
+  }, 
+  "RemoteUIService": {
+    "headers": {
+      "RemoteUITurnByTurn": "../../../SourceSpace/IF1ThriftMeFull/RemoteUIService/inc/RemoteUITurnByTurn.h", 
+      "RemoteUIControlService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUIService/inc/RemoteUIControlService.h", 
+      "ApplicationStateControlService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUIService/inc/ApplicationStateControlService.h", 
+      "GeneralRemoteUIService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUIService/inc/GeneralRemoteUIService.h"
+    }, 
+    "namespace": "communication::remoteUI", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/RemoteUIService/private/src"
+  }, 
+  "DiagnosticsService": {
+    "headers": {
+      "GeneralDiagnosticsService": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsService/inc/GeneralDiagnosticsService.h"
+    }, 
+    "namespace": "platform::diagnostics", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/DiagnosticsService/private/src"
+  }, 
+  "SnapServiceCallService": {
+    "headers": {
+      "SNAPServiceCallService": "../../../SourceSpace/IF1ThriftMeFull/SnapServiceCallService/inc/SNAPServiceCallService.h"
+    }, 
+    "namespace": "platform::snapServiceCall", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SnapServiceCallService/private/src"
+  }, 
+  "RepairServicesService": {
+    "headers": {
+      "GeneralRepairService": "../../../SourceSpace/IF1ThriftMeFull/RepairServicesService/inc/GeneralRepairService.h", 
+      "BrakeLiningService": "../../../SourceSpace/IF1ThriftMeFull/RepairServicesService/inc/BrakeLiningService.h", 
+      "WorkshopDataService": "../../../SourceSpace/IF1ThriftMeFull/RepairServicesService/inc/WorkshopDataService.h", 
+      "RollerTestService": "../../../SourceSpace/IF1ThriftMeFull/RepairServicesService/inc/RollerTestService.h"
+    }, 
+    "namespace": "cluster::repairServices", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/RepairServicesService/private/src"
+  }, 
+  "DrivingInformationService": {
+    "headers": {
+      "FuelLevelService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/FuelLevelService.h", 
+      "OutsideTemperatureService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/OutsideTemperatureService.h", 
+      "AssystService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/AssystService.h", 
+      "PowerMeterService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/PowerMeterService.h", 
+      "OdometerService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/OdometerService.h", 
+      "AdBlueService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/AdBlueService.h", 
+      "RevMeterService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/RevMeterService.h", 
+      "TripComputerService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/TripComputerService.h", 
+      "SuperSportService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/SuperSportService.h", 
+      "TransmissionService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/TransmissionService.h", 
+      "WiperService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/WiperService.h", 
+      "CoolantTemperatureService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/CoolantTemperatureService.h", 
+      "OffroadService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/OffroadService.h", 
+      "AssystPlusService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/AssystPlusService.h", 
+      "SpeedometerService": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/inc/SpeedometerService.h"
+    }, 
+    "namespace": "cluster::drivingInformation", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/DrivingInformationService/private/src"
+  }, 
+  "OnOffICCService": {
+    "headers": {
+      "OnOffAppControl": "../../../SourceSpace/IF1ThriftMeFull/OnOffICCService/inc/OnOffAppControl.h"
+    }, 
+    "namespace": "vcpu::onOffICC", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/OnOffICCService/private/src"
+  }, 
+  "VehicleStateService": {
+    "headers": {
+      "VehicleLightsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleStateService/inc/VehicleLightsService.h", 
+      "ElectricPowerSupplyService": "../../../SourceSpace/IF1ThriftMeFull/VehicleStateService/inc/ElectricPowerSupplyService.h", 
+      "TerminalBehaviorService": "../../../SourceSpace/IF1ThriftMeFull/VehicleStateService/inc/TerminalBehaviorService.h"
+    }, 
+    "namespace": "cluster::vehicleState", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/VehicleStateService/private/src"
+  }, 
+  "BluetoothService": {
+    "headers": {
+      "DeviceManagerService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/DeviceManagerService.h", 
+      "ConnectionManagerService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/ConnectionManagerService.h", 
+      "GeneralBluetoothSettingService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/GeneralBluetoothSettingService.h", 
+      "WirelessChargingService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/WirelessChargingService.h", 
+      "CommunicationTestService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/CommunicationTestService.h", 
+      "NFCControlService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/NFCControlService.h", 
+      "BTHControlService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/BTHControlService.h", 
+      "SIMControlService": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/inc/SIMControlService.h"
+    }, 
+    "namespace": "communication::bluetooth", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/BluetoothService/private/src"
+  }, 
+  "ConnectivityService": {
+    "headers": {
+      "GeneralConnectivityService": "../../../SourceSpace/IF1ThriftMeFull/ConnectivityService/inc/GeneralConnectivityService.h", 
+      "InternetAccessPointControlService": "../../../SourceSpace/IF1ThriftMeFull/ConnectivityService/inc/InternetAccessPointControlService.h", 
+      "ConnectivityInformationService": "../../../SourceSpace/IF1ThriftMeFull/ConnectivityService/inc/ConnectivityInformationService.h"
+    }, 
+    "namespace": "communication::connectivity", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/ConnectivityService/private/src"
+  }, 
+  "PersonalizationDIService": {
+    "headers": {
+      "UserProfileServiceDI": "../../../SourceSpace/IF1ThriftMeFull/PersonalizationDIService/inc/UserProfileServiceDI.h"
+    }, 
+    "namespace": "cluster::personalizationDI", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/PersonalizationDIService/private/src"
+  }, 
+  "DriveProgramsService": {
+    "headers": {
+      "EngineDataService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/EngineDataService.h", 
+      "OffroadScoreService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/OffroadScoreService.h", 
+      "WheelDataService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/WheelDataService.h", 
+      "DriveProgramControlService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/DriveProgramControlService.h", 
+      "IndividualDriveProgramService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/IndividualDriveProgramService.h", 
+      "CarDataService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/CarDataService.h", 
+      "GeneralDriveProgramService": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/inc/GeneralDriveProgramService.h"
+    }, 
+    "namespace": "vehicle::drivePrograms", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/DriveProgramsService/private/src"
+  }, 
+  "SeatService": {
+    "headers": {
+      "PulseModeService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/PulseModeService.h", 
+      "SeatPadsService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/SeatPadsService.h", 
+      "SeatClimateService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/SeatClimateService.h", 
+      "DynamicSeatService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/DynamicSeatService.h", 
+      "MotionSeatingService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/MotionSeatingService.h", 
+      "LumbarPadService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/LumbarPadService.h", 
+      "SeatAdjustmentService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/SeatAdjustmentService.h", 
+      "GeneralSeatSettingsService": "../../../SourceSpace/IF1ThriftMeFull/SeatService/inc/GeneralSeatSettingsService.h"
+    }, 
+    "namespace": "vehicle::seat", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SeatService/private/src"
+  }, 
+  "AudioVideoSettingsService": {
+    "headers": {
+      "AudioProcessingInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/AudioProcessingInformationService.h", 
+      "VideoSettingsService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/VideoSettingsService.h", 
+      "EqualiserInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/EqualiserInformationService.h", 
+      "AudioRemoteVolumeService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/AudioRemoteVolumeService.h", 
+      "VideoIODeviceInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/VideoIODeviceInformationService.h", 
+      "GeneralAudioVideoSettingsService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/GeneralAudioVideoSettingsService.h", 
+      "VideoSettingsInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/VideoSettingsInformationService.h", 
+      "SoundSettingsService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/SoundSettingsService.h", 
+      "VolumeInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/VolumeInformationService.h", 
+      "ESSInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/ESSInformationService.h", 
+      "VideoTestInformationService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/VideoTestInformationService.h", 
+      "ExternalAudioSourceService": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/inc/ExternalAudioSourceService.h"
+    }, 
+    "namespace": "entertainment::audioVideoSettings", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/AudioVideoSettingsService/private/src"
+  }, 
+  "PlayerService": {
+    "headers": {
+      "GeneralPlayerService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/GeneralPlayerService.h", 
+      "MediaListService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/MediaListService.h", 
+      "DriveControlService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/DriveControlService.h", 
+      "CurrentPlaylistControlService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/CurrentPlaylistControlService.h", 
+      "VideoControlService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/VideoControlService.h", 
+      "ActiveComfortControlService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/ActiveComfortControlService.h", 
+      "MediaBrowsingAndSearchService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/MediaBrowsingAndSearchService.h", 
+      "MetaDataScanService": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/inc/MetaDataScanService.h"
+    }, 
+    "namespace": "entertainment::player", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/PlayerService/private/src"
+  }, 
+  "RemoteUpdateIF2Service": {
+    "headers": {
+      "InstallerClientService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateIF2Service/inc/InstallerClientService.h", 
+      "InstallerManagerService": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateIF2Service/inc/InstallerManagerService.h"
+    }, 
+    "namespace": "vehicle::remoteUpdateIF2", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/RemoteUpdateIF2Service/private/src"
+  }, 
+  "UserDataService": {
+    "headers": {
+      "EmotionService": "../../../SourceSpace/IF1ThriftMeFull/UserDataService/inc/EmotionService.h", 
+      "UserProfileService": "../../../SourceSpace/IF1ThriftMeFull/UserDataService/inc/UserProfileService.h", 
+      "GeneralUserDataService": "../../../SourceSpace/IF1ThriftMeFull/UserDataService/inc/GeneralUserDataService.h", 
+      "UserDataService": "../../../SourceSpace/IF1ThriftMeFull/UserDataService/inc/UserDataService.h", 
+      "SystemProfileService": "../../../SourceSpace/IF1ThriftMeFull/UserDataService/inc/SystemProfileService.h"
+    }, 
+    "namespace": "vehicle::userData", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/UserDataService/private/src"
+  }, 
+  "TunerService": {
+    "headers": {
+      "EmergencyMessageService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/EmergencyMessageService.h", 
+      "EPGService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/EPGService.h", 
+      "EPGListService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/EPGListService.h", 
+      "TunerSearchListService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/TunerSearchListService.h", 
+      "TunerSettingsService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/TunerSettingsService.h", 
+      "TuneService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/TuneService.h", 
+      "SiriusService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/SiriusService.h", 
+      "EntertainmentInformationService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/EntertainmentInformationService.h", 
+      "StationListService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/StationListService.h", 
+      "TimeshiftService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/TimeshiftService.h", 
+      "TunerUIConfig": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/TunerUIConfig.h", 
+      "GeneralTunerService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/GeneralTunerService.h", 
+      "TVDataService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/TVDataService.h", 
+      "PresetListService": "../../../SourceSpace/IF1ThriftMeFull/TunerService/inc/PresetListService.h"
+    }, 
+    "namespace": "entertainment::tuner", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/TunerService/private/src"
+  }, 
+  "ErrormemoryICCService": {
+    "headers": {
+      "ErrorMemory": "../../../SourceSpace/IF1ThriftMeFull/ErrormemoryICCService/inc/ErrorMemory.h"
+    }, 
+    "namespace": "vcpu::errormemoryICC", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/ErrormemoryICCService/private/src"
+  }, 
+  "AudioManagementService": {
+    "headers": {
+      "EntertainmentSharingService": "../../../SourceSpace/IF1ThriftMeFull/AudioManagementService/inc/EntertainmentSharingService.h", 
+      "GeneralAudioManagementService": "../../../SourceSpace/IF1ThriftMeFull/AudioManagementService/inc/GeneralAudioManagementService.h"
+    }, 
+    "namespace": "entertainment::audioManagement", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/AudioManagementService/private/src"
+  }, 
+  "DisplayManagementDIService": {
+    "headers": {
+      "PiPReceiverService": "../../../SourceSpace/IF1ThriftMeFull/DisplayManagementDIService/inc/PiPReceiverService.h", 
+      "DisplayManagementService": "../../../SourceSpace/IF1ThriftMeFull/DisplayManagementDIService/inc/DisplayManagementService.h", 
+      "HUDManagementService": "../../../SourceSpace/IF1ThriftMeFull/DisplayManagementDIService/inc/HUDManagementService.h"
+    }, 
+    "namespace": "cluster::displayManagementDI", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/DisplayManagementDIService/private/src"
+  }, 
+  "SpecialPurposeVehiclesService": {
+    "headers": {
+      "SPVControlService": "../../../SourceSpace/IF1ThriftMeFull/SpecialPurposeVehiclesService/inc/SPVControlService.h", 
+      "SettingsSPVService": "../../../SourceSpace/IF1ThriftMeFull/SpecialPurposeVehiclesService/inc/SettingsSPVService.h", 
+      "GeneralSPVService": "../../../SourceSpace/IF1ThriftMeFull/SpecialPurposeVehiclesService/inc/GeneralSPVService.h"
+    }, 
+    "namespace": "vehicle::specialPurposeVehicles", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SpecialPurposeVehiclesService/private/src"
+  }, 
+  "WifiService": {
+    "headers": {
+      "WifiP2PService": "../../../SourceSpace/IF1ThriftMeFull/WifiService/inc/WifiP2PService.h", 
+      "WifiTestService": "../../../SourceSpace/IF1ThriftMeFull/WifiService/inc/WifiTestService.h", 
+      "WifiControlService": "../../../SourceSpace/IF1ThriftMeFull/WifiService/inc/WifiControlService.h", 
+      "GeneralWifiControlService": "../../../SourceSpace/IF1ThriftMeFull/WifiService/inc/GeneralWifiControlService.h"
+    }, 
+    "namespace": "communication::wifi", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/WifiService/private/src"
+  }, 
+  "SystemSettingsService": {
+    "headers": {
+      "GeneralTimeAndDateService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/GeneralTimeAndDateService.h", 
+      "LunarDateService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/LunarDateService.h", 
+      "SystemSettingsService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/SystemSettingsService.h", 
+      "GeneralSystemSettingsService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/GeneralSystemSettingsService.h", 
+      "GeneralLunarDateService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/GeneralLunarDateService.h", 
+      "EnergyFlowService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/EnergyFlowService.h", 
+      "GeneralEnergyFlowService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/GeneralEnergyFlowService.h", 
+      "TimeAndDateService": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/inc/TimeAndDateService.h"
+    }, 
+    "namespace": "vehicle::systemSettings", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/SystemSettingsService/private/src"
+  }, 
+  "AirConditionService": {
+    "headers": {
+      "PreconditioningService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/PreconditioningService.h", 
+      "AirPulseModeService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/AirPulseModeService.h", 
+      "FanAdjustmentService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/FanAdjustmentService.h", 
+      "AirDistributionService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/AirDistributionService.h", 
+      "AirFlowService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/AirFlowService.h", 
+      "GeneralAirConditionSettingsService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/GeneralAirConditionSettingsService.h", 
+      "IonizationService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/IonizationService.h", 
+      "IndependentCarHeaterService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/IndependentCarHeaterService.h", 
+      "TemperatureService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/TemperatureService.h", 
+      "AirQualityService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/AirQualityService.h", 
+      "ScentGenerationService": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/inc/ScentGenerationService.h"
+    }, 
+    "namespace": "vehicle::airCondition", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/AirConditionService/private/src"
+  }, 
+  "InputDIService": {
+    "headers": {
+      "GazeControlService": "../../../SourceSpace/IF1ThriftMeFull/InputDIService/inc/GazeControlService.h"
+    }, 
+    "namespace": "cluster::inputDI", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/InputDIService/private/src"
+  }, 
+  "PinProtectionService": {
+    "headers": {
+      "GeneralPinProtectionService": "../../../SourceSpace/IF1ThriftMeFull/PinProtectionService/inc/GeneralPinProtectionService.h"
+    }, 
+    "namespace": "platform::pinProtection", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/PinProtectionService/private/src"
+  }, 
+  "VehicleIndicatorsService": {
+    "headers": {
+      "SeatbeltsAndDoorsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleIndicatorsService/inc/SeatbeltsAndDoorsService.h", 
+      "TireMonitoringService": "../../../SourceSpace/IF1ThriftMeFull/VehicleIndicatorsService/inc/TireMonitoringService.h", 
+      "VehicleIndicatorsService": "../../../SourceSpace/IF1ThriftMeFull/VehicleIndicatorsService/inc/VehicleIndicatorsService.h"
+    }, 
+    "namespace": "cluster::vehicleIndicators", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/VehicleIndicatorsService/private/src"
+  }, 
+  "EngineeringICCService": {
+    "headers": {
+      "InternalAmpInformation": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/InternalAmpInformation.h", 
+      "VCPUMiscInformation": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/VCPUMiscInformation.h", 
+      "FanService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/FanService.h", 
+      "DTC": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/DTC.h", 
+      "SystemVoltageInformation": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/SystemVoltageInformation.h", 
+      "MOSTVoltageInformation": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/MOSTVoltageInformation.h", 
+      "TemperatureInformationService": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/inc/TemperatureInformationService.h"
+    }, 
+    "namespace": "vcpu::engineeringICC", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/EngineeringICCService/private/src"
+  }, 
+  "UserDataIF2Service": {
+    "headers": {
+      "UserDataSynchronizationInformationService": "../../../SourceSpace/IF1ThriftMeFull/UserDataIF2Service/inc/UserDataSynchronizationInformationService.h", 
+      "EmotionService": "../../../SourceSpace/IF1ThriftMeFull/UserDataIF2Service/inc/EmotionService.h", 
+      "UserDataExchangeService": "../../../SourceSpace/IF1ThriftMeFull/UserDataIF2Service/inc/UserDataExchangeService.h"
+    }, 
+    "namespace": "vehicle::userDataIF2", 
+    "source": "../../../SourceSpace/IF1ThriftMeFull/UserDataIF2Service/private/src"
+  }
+}

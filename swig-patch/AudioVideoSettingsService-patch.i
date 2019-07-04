@@ -1,0 +1,6 @@
+%ignore GET_EQUALIZER_SETTINGS_ID;
+%ignore GET_INTERNAL_AMPLIFIER_GAIN_ID;
+%ignore SET_EQUALIZER_SETTINGS_ID;
+%ignore EQUALIZER_SETTINGS_CHANGED_ID;
+%rename (SoundSettingsServiceParameters__getEqualizerSettings_result) entertainment::audioVideoSettings::SoundSettingsServiceParameters::getEqualizerSettings_result;
+%rename (EqualiserInformationServiceParameters__getEqualizerSettings_result) entertainment::audioVideoSettings::EqualiserInformationServiceParameters::getEqualizerSettings_result;
