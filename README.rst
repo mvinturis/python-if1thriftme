@@ -1,7 +1,7 @@
 if1thriftme
 ===========
 
-if1thriftme provides an object-oriented API for IF1 ThriftMe interfaces for Visteon MRA2 project.
+if1thriftme provides an object-oriented API generated from C++ interfaces of some generic native microservices.
 The provided modules were generated with SWIG (http://www.swig.org/Doc1.3/Python.html) and
 extended/customized in order to make them simple to use by dev teams.
 
