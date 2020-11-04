@@ -1,7 +1,7 @@
 if1thriftme
 ===========
 
-if1thriftme package contains an object-oriented API to some generic native microservices (C++).
+if1thriftme package contains Python wrappers of an object-oriented API to some generic native microservices (C++).
 The provided modules were generated with SWIG (http://www.swig.org/Doc1.3/Python.html) and
 extended/customized in order to make them simple to use by dev teams.
 
